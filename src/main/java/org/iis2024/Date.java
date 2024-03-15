@@ -84,4 +84,9 @@ public class Date {
       return false;
     }
   }
+  
+  public boolean bisiesto() {
+	  return (year%4 == 0 && year%100 != 0);
+  }
+  
 }
